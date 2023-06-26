@@ -24,6 +24,15 @@
 		Lista de Manutencoes
 
     </div>
+    <div class = "box-search">
+        <imput type="search" class="form-control w-25" placehouder="Pesquisa" id="pesquisar">
+        
+    </div>
+    <button onclick="searchData()" class="btn btn-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.4B8r3B4p7yhRXuBWLqsQ546WR43cqQwrbXMDFnBi6vSJBeif8tPW85a7r7DM961Jvk4hdryZoByEp8GC8HzsqJpRN4FxGM9.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </button>
     <div>
         <table>
             <thead>
